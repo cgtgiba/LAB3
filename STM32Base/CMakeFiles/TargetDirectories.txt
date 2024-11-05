@@ -1,0 +1,5 @@
+C:/LAB/LAB3/STM32Base/CMakeFiles/STM32Base.dir
+C:/LAB/LAB3/STM32Base/CMakeFiles/edit_cache.dir
+C:/LAB/LAB3/STM32Base/CMakeFiles/rebuild_cache.dir
+C:/LAB/LAB3/STM32Base/cmake/stm32cubemx/CMakeFiles/edit_cache.dir
+C:/LAB/LAB3/STM32Base/cmake/stm32cubemx/CMakeFiles/rebuild_cache.dir
