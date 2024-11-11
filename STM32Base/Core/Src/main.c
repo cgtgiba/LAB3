@@ -95,10 +95,15 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-    HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
-    HAL_Delay(500); /* Delay 100ms*/
+    //HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
+    //HAL_Delay(500); /* Delay 500ms*/
     /* USER CODE BEGIN 3 */
-  }
+    // If Button Is Pressed
+    if (HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_0))
+      HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_SET); // LED OFF
+    else
+      HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_RESET); // LED ON
+      }
   /* USER CODE END 3 */
 }
 
